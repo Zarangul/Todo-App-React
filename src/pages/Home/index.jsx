@@ -8,7 +8,8 @@ import style from "./Home.module.css";
 function Home() {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState([]);
-  console.log(input);
+  
+  console.log(todos)
   return (
     <div className={style.home}>
       <Add
